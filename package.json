@@ -1,11 +1,13 @@
 {
   "name": "oauth2-mock-server",
   "version": "1.0.0",
-  "description": "OAuth2 Mock Server with HTTPS, Authorization Code flow, Client Secret Basic",
+  "description": "OAuth2 Mock Server - Authorization Code, Client Secret Basic, HTTPS via Render",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "setup": "node setup-certs.js"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.18.2"
