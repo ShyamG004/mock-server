@@ -14,10 +14,8 @@ const CLIENTS = {
   'my-client-id': {
     secret: 'my-client-secret',
     redirectUris: [
-      // Add your Log360 callback URL here e.g:
-      // 'https://your-log360-server/oauth/callback',
-      'https://localhost:3000/callback',
-      'http://localhost:3000/callback',
+      "https://shyam-nts0023.csez.zohocorpin.com:443/applicationOauthRedirect",
+      "https://oauth.pstmn.io/v1/callback"
     ],
     allowedScopes: ['openid', 'profile', 'email', 'read', 'write'],
   },
