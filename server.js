@@ -15,6 +15,7 @@ const CLIENTS = {
     secret: 'my-client-secret',
     redirectUris: [
       "https://shyam-nts0023.csez.zohocorpin.com:443/applicationOauthRedirect",
+      "https://vimal-17786t.csez.zohocorpin.com:443/applicationOauthRedirect",
       "https://oauth.pstmn.io/v1/callback"
     ],
     allowedScopes: ['openid', 'profile', 'email', 'read', 'write'],
